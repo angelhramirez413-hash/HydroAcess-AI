@@ -1,0 +1,361 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgba(248, 252, 255, 0.98) 0%, #ffffff 42%, #f6fbfc 100%);
+  color: #062339;
+  font-family:
+    Inter, "Segoe UI", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  text-rendering: geometricPrecision;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-aqua-600;
+}
+
+::selection {
+  background: rgba(45, 212, 191, 0.28);
+  color: #062339;
+}
+
+.water-grid {
+  background-image:
+    linear-gradient(rgba(7, 95, 142, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(7, 95, 142, 0.055) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.flow-line {
+  position: relative;
+}
+
+.flow-line::after {
+  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.72), rgba(247, 195, 95, 0.72), transparent);
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.reveal-up {
+  animation: reveal-up 640ms cubic-bezier(0.2, 0.72, 0.22, 1) both;
+}
+
+.interactive-lift {
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+.interactive-lift:hover {
+  border-color: rgba(45, 212, 191, 0.46);
+  box-shadow: 0 28px 76px rgba(6, 35, 57, 0.14);
+  transform: translateY(-2px);
+}
+
+.brand-mark {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.14), transparent 42%),
+    linear-gradient(135deg, #03131d, #075f8e 54%, #2dd4bf);
+  border: 1px solid rgba(7, 95, 142, 0.18);
+  border-radius: 0.9rem;
+  box-shadow: 0 14px 32px rgba(7, 95, 142, 0.28);
+  display: inline-block;
+  height: 2.5rem;
+  overflow: hidden;
+  position: relative;
+  width: 2.5rem;
+}
+
+.brand-mark::after {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.58), transparent);
+  content: "";
+  height: 1px;
+  left: -20%;
+  position: absolute;
+  right: -20%;
+  top: 62%;
+  transform: rotate(-24deg);
+}
+
+.brand-mark__stem {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 999px;
+  bottom: 0.58rem;
+  position: absolute;
+  top: 0.58rem;
+  width: 0.18rem;
+}
+
+.brand-mark__stem-left {
+  left: 0.82rem;
+}
+
+.brand-mark__stem-right {
+  right: 0.82rem;
+}
+
+.brand-mark__channel {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.88), rgba(204, 251, 241, 0.96));
+  border-radius: 999px;
+  height: 0.18rem;
+  left: 0.82rem;
+  position: absolute;
+  right: 0.82rem;
+  top: 1.2rem;
+  transform: rotate(-18deg);
+  transform-origin: center;
+}
+
+.brand-mark__source {
+  background: #f7c35f;
+  border: 2px solid rgba(255, 255, 255, 0.82);
+  border-radius: 999px;
+  box-shadow: 0 0 0 5px rgba(247, 195, 95, 0.14);
+  height: 0.48rem;
+  position: absolute;
+  right: 0.44rem;
+  top: 0.44rem;
+  width: 0.48rem;
+}
+
+.hydro-orbit {
+  background:
+    radial-gradient(circle at 50% 50%, transparent 0 46%, rgba(45, 212, 191, 0.28) 47% 48%, transparent 49%),
+    conic-gradient(from 180deg, transparent, rgba(45, 212, 191, 0.42), rgba(247, 195, 95, 0.32), transparent 72%);
+  filter: blur(0.2px);
+  opacity: 0.7;
+  pointer-events: none;
+  transform: rotate(-12deg);
+}
+
+.atlas-panel::before {
+  background:
+    radial-gradient(circle at 18% 28%, rgba(45, 212, 191, 0.28), transparent 16%),
+    radial-gradient(circle at 78% 18%, rgba(247, 195, 95, 0.22), transparent 18%),
+    radial-gradient(circle at 64% 76%, rgba(12, 140, 200, 0.32), transparent 19%);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.signal-line {
+  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.85), transparent);
+  height: 1px;
+  left: -20%;
+  position: absolute;
+  right: -20%;
+  transform-origin: center;
+}
+
+.signal-line-one {
+  top: 28%;
+  transform: rotate(-13deg);
+}
+
+.signal-line-two {
+  top: 52%;
+  transform: rotate(17deg);
+}
+
+.signal-line-three {
+  top: 76%;
+  transform: rotate(-7deg);
+}
+
+.shine-button {
+  overflow: hidden;
+  position: relative;
+}
+
+.shine-button::after {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateX(-120%);
+  transition: transform 700ms ease;
+}
+
+.shine-button:hover::after {
+  transform: translateX(120%);
+}
+
+.current-ribbon {
+  background:
+    linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.34), transparent),
+    repeating-linear-gradient(90deg, rgba(7, 95, 142, 0.12) 0 1px, transparent 1px 38px);
+}
+
+.advisor-stage::before {
+  background: linear-gradient(90deg, transparent, rgba(247, 195, 95, 0.35), rgba(45, 212, 191, 0.32), transparent);
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hydro-lab::after {
+  background:
+    linear-gradient(120deg, transparent 0 42%, rgba(45, 212, 191, 0.14) 42.2% 42.6%, transparent 43%),
+    linear-gradient(72deg, transparent 0 58%, rgba(247, 195, 95, 0.13) 58.2% 58.7%, transparent 59%);
+  content: "";
+  inset: 0;
+  opacity: 0.85;
+  pointer-events: none;
+  position: absolute;
+}
+
+.watershed-map::before {
+  background:
+    radial-gradient(circle at 26% 22%, rgba(45, 212, 191, 0.26), transparent 13%),
+    radial-gradient(circle at 74% 28%, rgba(247, 195, 95, 0.18), transparent 15%),
+    radial-gradient(circle at 56% 72%, rgba(12, 140, 200, 0.26), transparent 17%);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.watershed-map::after {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 38px 38px;
+  content: "";
+  inset: 0;
+  mask-image: radial-gradient(circle at 50% 50%, black, transparent 82%);
+  position: absolute;
+}
+
+.contour {
+  border: 1px solid rgba(45, 212, 191, 0.22);
+  border-radius: 43% 57% 52% 48% / 48% 42% 58% 52%;
+  position: absolute;
+}
+
+.contour-one {
+  height: 22rem;
+  left: 8%;
+  top: 10%;
+  transform: rotate(-18deg);
+  width: 28rem;
+}
+
+.contour-two {
+  border-color: rgba(247, 195, 95, 0.18);
+  height: 19rem;
+  right: 4%;
+  top: 22%;
+  transform: rotate(21deg);
+  width: 22rem;
+}
+
+.contour-three {
+  border-color: rgba(255, 255, 255, 0.12);
+  bottom: -12%;
+  height: 24rem;
+  left: 24%;
+  transform: rotate(8deg);
+  width: 30rem;
+}
+
+.water-thread {
+  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.82), rgba(247, 195, 95, 0.42), transparent);
+  height: 1px;
+  left: -10%;
+  position: absolute;
+  right: -10%;
+  transform-origin: center;
+}
+
+.water-thread-one {
+  top: 31%;
+  transform: rotate(-10deg);
+}
+
+.water-thread-two {
+  top: 53%;
+  transform: rotate(15deg);
+}
+
+.water-thread-three {
+  top: 74%;
+  transform: rotate(-4deg);
+}
+
+.map-node {
+  position: relative;
+}
+
+.map-node::after {
+  background: rgba(45, 212, 191, 0.7);
+  border-radius: 999px;
+  box-shadow: 0 0 0 8px rgba(45, 212, 191, 0.08);
+  content: "";
+  height: 7px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 7px;
+}
+
+.field-manifest::before {
+  background:
+    radial-gradient(circle at 20% 18%, rgba(45, 212, 191, 0.24), transparent 21%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.08), transparent 42%);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.field-manifest > * {
+  position: relative;
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

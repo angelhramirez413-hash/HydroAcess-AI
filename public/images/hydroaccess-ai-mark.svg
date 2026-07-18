@@ -1,0 +1,50 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HydroAccess AI mark</title>
+  <desc id="desc">A refined HydroAccess AI monogram with water contour lines, a droplet, and circular signal arcs.</desc>
+  <defs>
+    <linearGradient id="water" x1="193" y1="184" x2="320" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CCFBF1"/>
+      <stop offset="0.42" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#075F8E"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="255" y1="98" x2="255" y2="206" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7F2FF"/>
+      <stop offset="1" stop-color="#075F8E"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="110" y1="90" x2="420" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#062339"/>
+      <stop offset="1" stop-color="#03131D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="104" fill="#F8FDFF"/>
+  <circle cx="256" cy="244" r="166" stroke="#062339" stroke-width="6" stroke-linecap="round" stroke-dasharray="560 72"/>
+  <circle cx="256" cy="244" r="166" stroke="#2DD4BF" stroke-width="3" stroke-linecap="round" stroke-dasharray="120 570" opacity="0.72"/>
+  <path d="M355 106C406 128 435 174 440 226" stroke="#075F8E" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 13" opacity="0.9"/>
+  <path d="M416 272C407 330 366 376 314 394" stroke="#075F8E" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+
+  <path d="M95 220C123 197 153 203 176 223C199 243 231 246 260 221" stroke="#89AFC5" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+  <path d="M92 246C124 218 159 225 183 249C209 275 242 273 270 245" stroke="#89AFC5" stroke-width="3" stroke-linecap="round" opacity="0.58"/>
+  <path d="M90 272C124 242 161 250 187 277C213 304 252 303 282 272" stroke="#89AFC5" stroke-width="3" stroke-linecap="round" opacity="0.46"/>
+  <path d="M92 300C122 274 156 279 181 305C208 332 245 337 274 310" stroke="#89AFC5" stroke-width="3" stroke-linecap="round" opacity="0.36"/>
+
+  <path d="M164 148C184 152 198 167 205 190V337C200 359 187 373 164 377H225C204 371 195 356 195 337V260C227 247 282 247 318 264V337C317 356 306 371 286 377H348C326 373 313 359 308 337V190C315 167 329 152 349 148H286C306 154 317 169 318 190V238C284 222 231 221 195 237V190C196 169 207 154 227 148H164Z" fill="url(#ink)"/>
+  <path d="M181 257C216 236 276 237 333 261C296 283 230 277 181 257Z" fill="#CCFBF1"/>
+
+  <path d="M244 95V52" stroke="#062339" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="244" cy="48" r="13" fill="#F8FDFF" stroke="#062339" stroke-width="5"/>
+  <circle cx="244" cy="18" r="4" fill="#062339"/>
+  <circle cx="244" cy="34" r="4" fill="#062339"/>
+  <path d="M244 95C231 124 216 143 216 168C216 192 234 211 256 211C278 211 296 192 296 168C296 143 259 122 244 95Z" fill="#F8FDFF" stroke="#062339" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M244 120C235 141 229 154 229 168C229 184 241 196 256 196C271 196 283 184 283 168C283 153 260 140 244 120Z" fill="url(#drop)"/>
+
+  <path d="M269 298C246 335 231 369 249 410C220 389 208 358 225 322C236 298 254 285 269 263C264 276 263 287 269 298Z" fill="url(#water)"/>
+  <path d="M287 272C313 313 331 355 309 411C343 389 355 348 334 311C322 290 305 281 287 252C293 263 294 268 287 272Z" fill="url(#water)" opacity="0.86"/>
+  <path d="M266 322C252 351 254 378 271 406" stroke="#F8FDFF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M302 304C319 334 321 365 305 397" stroke="#F8FDFF" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+
+  <circle cx="440" cy="244" r="12" fill="#F8FDFF" stroke="#062339" stroke-width="5"/>
+  <circle cx="244" cy="438" r="12" fill="#F8FDFF" stroke="#062339" stroke-width="5"/>
+  <circle cx="244" cy="464" r="4" fill="#062339"/>
+  <circle cx="244" cy="480" r="4" fill="#062339"/>
+</svg>

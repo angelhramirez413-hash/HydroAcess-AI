@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Home",
+    "how": "How it works",
+    "advisor": "Water Advisor",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "AI powered water access guidance",
+    "title": "HydroAccess AI",
+    "subtitle": "Practical clean water recommendations for households, clinics, schools, and community teams working under real constraints.",
+    "cta": "Start assessment",
+    "secondary": "See how it works",
+    "mission": "Our mission is to help underserved communities identify affordable, buildable, and safer routes to drinking water and sanitation.",
+    "stat1": "2.2B people lack safely managed drinking water.",
+    "stat2": "3.5B people lack safely managed sanitation.",
+    "stat3": "Local context changes the best engineering choice.",
+    "modelEyebrow": "Live assessment model",
+    "modelTitle": "Source to safety",
+    "modelSteps": [
+      {
+        "label": "Source",
+        "value": "Well / rain / river"
+      },
+      {
+        "label": "Risk",
+        "value": "Pathogens + sediment"
+      },
+      {
+        "label": "Action",
+        "value": "Filter, disinfect, store"
+      }
+    ],
+    "modelScore": "Practicality score",
+    "principlesEyebrow": "Built for field decisions",
+    "principles": [
+      "Evidence first",
+      "Local constraints",
+      "Bilingual access"
+    ]
+  },
+  "how": {
+    "title": "Three steps from context to action",
+    "step1": "Complete a guided assessment",
+    "step2": "Match responses to engineering knowledge",
+    "step3": "Receive a practical recommendation",
+    "body": "Each step keeps the recommendation connected to verifiable data, local constraints, and clear safety warnings."
+  },
+  "advisor": {
+    "title": "Water Advisor",
+    "subtitle": "Answer the essentials or describe your situation. HydroAccess AI selects from structured engineering solutions and explains the fit.",
+    "guided": "Guided",
+    "chat": "Chat",
+    "recommend": "Generate recommendation",
+    "result": "Recommendation",
+    "why": "Why it fits",
+    "cost": "Estimated cost",
+    "materials": "Materials",
+    "instructions": "Construction instructions",
+    "maintenance": "Maintenance",
+    "advantages": "Advantages",
+    "limitations": "Limitations",
+    "warnings": "Safety warnings",
+    "alternative": "Alternative",
+    "validationError": "Review the required fields before generating the recommendation.",
+    "chatWelcome": "Ask HydroAccess AI about clean water, contamination, filtration, storage, sanitation, hygiene, or practical water access.",
+    "chatPlaceholder": "Ask a water or sanitation question...",
+    "chatSend": "Send",
+    "chatThinking": "HydroAccess AI is thinking...",
+    "chatError": "I could not respond right now. Please try again.",
+    "chatScope": "HydroAccess AI only answers questions about water, sanitation, hygiene, contamination, treatment, storage, and safe-water access.",
+    "chatExamples": [
+      "How does water become contaminated?",
+      "Is cloudy water safe to drink?",
+      "What is a biosand filter?",
+      "How should rainwater be stored?"
+    ]
+  },
+  "about": {
+    "title": "Built for engineering judgment in constrained settings",
+    "body": "HydroAccess AI was inspired by the teams who make water safer with limited budgets, difficult terrain, unreliable infrastructure, and urgent health needs. The platform combines structured engineering knowledge with multilingual AI explanation so communities can move from uncertainty to an actionable first plan."
+  },
+  "contact": {
+    "title": "Contact HydroAccess AI",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send message"
+  },
+  "footer": {
+    "product": "HydroAccess AI™",
+    "creator": "Created and developed by Angel Hernandez.",
+    "rights": "© 2026 Angel Hernandez. All rights reserved.",
+    "disclaimer": "HydroAccess AI provides educational guidance and should be used with local testing, public-health guidance, and qualified engineering judgment."
+  },
+  "form": {
+    "country": "Country",
+    "region": "Region",
+    "climate": "Climate",
+    "settlement": "Urban or rural",
+    "source": "Primary water source",
+    "reliability": "Source reliability",
+    "appearance": "Water appearance",
+    "contamination": "Suspected contamination",
+    "family": "Family size",
+    "budget": "Monthly budget (USD)",
+    "electricity": "Electricity available",
+    "internet": "Internet available",
+    "materials": "Available materials",
+    "tools": "Available tools",
+    "concern": "Main concern",
+    "use": "Primary water use",
+    "priority": "Priority",
+    "situation": "Describe your situation"
+  },
+  "options": {
+    "arid": "Arid",
+    "tropical": "Tropical",
+    "temperate": "Temperate",
+    "cold": "Cold",
+    "variable": "Variable",
+    "rural": "Rural",
+    "urban": "Urban",
+    "rain": "Rainwater",
+    "well": "Well",
+    "river": "River",
+    "lake": "Lake",
+    "piped": "Piped water",
+    "truck": "Truck delivery",
+    "spring": "Spring",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "seasonal": "Seasonal",
+    "unreliable": "Unreliable",
+    "clear": "Clear",
+    "cloudy": "Cloudy",
+    "colored": "Colored",
+    "smelly": "Smelly",
+    "cost": "Cost",
+    "safety": "Safety",
+    "speed": "Speed",
+    "maintenance": "Maintenance",
+    "capacity": "Capacity",
+    "drinking": "Drinking",
+    "cooking": "Cooking",
+    "washing": "Washing",
+    "irrigation": "Irrigation",
+    "lowest-cost": "Lowest cost",
+    "highest-safety": "Highest safety",
+    "fastest": "Fastest",
+    "lowest-maintenance": "Lowest maintenance",
+    "sediment": "Sediment",
+    "pathogens": "Pathogens",
+    "salinity": "Salinity",
+    "chemicals": "Chemicals",
+    "turbidity": "Turbidity",
+    "unknown": "Unknown"
+  },
+  "reasons": {
+    "source-match": "Matches the reported water source.",
+    "climate-match": "Works in the reported climate.",
+    "settlement-match": "Fits the urban or rural setting.",
+    "budget-fit": "Fits the monthly budget."
+  }
+}

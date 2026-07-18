@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "knowledgeBase",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "category", "order": "ASCENDING" },
+        { "fieldPath": "difficulty", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    match /knowledgeBase/{document=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /assessments/{assessmentId} {
+      allow create: if request.resource.data.createdAt is timestamp
+        && request.resource.data.familySize is int
+        && request.resource.data.country is string;
+      allow read, update, delete: if isSignedIn()
+        && resource.data.userId == request.auth.uid;
+    }
+
+    match /contactMessages/{messageId} {
+      allow create: if request.resource.data.email is string
+        && request.resource.data.message is string
+        && request.resource.data.createdAt is timestamp;
+      allow read, update, delete: if false;
+    }
+  }
+}

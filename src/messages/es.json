@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "how": "Como funciona",
+    "advisor": "Asesor de agua",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "home": {
+    "eyebrow": "Guia de acceso al agua con IA",
+    "title": "HydroAccess AI",
+    "subtitle": "Recomendaciones practicas de agua limpia para hogares, clinicas, escuelas y equipos comunitarios con restricciones reales.",
+    "cta": "Iniciar evaluacion",
+    "secondary": "Ver como funciona",
+    "mission": "Nuestra mision es ayudar a comunidades desatendidas a identificar opciones asequibles, construibles y mas seguras para agua potable y saneamiento.",
+    "stat1": "2.2 mil millones de personas no tienen agua potable gestionada de forma segura.",
+    "stat2": "3.5 mil millones de personas no tienen saneamiento gestionado de forma segura.",
+    "stat3": "El contexto local cambia la mejor decision de ingenieria.",
+    "modelEyebrow": "Modelo de evaluacion activo",
+    "modelTitle": "De fuente a seguridad",
+    "modelSteps": [
+      {
+        "label": "Fuente",
+        "value": "Pozo / lluvia / rio"
+      },
+      {
+        "label": "Riesgo",
+        "value": "Patogenos + sedimento"
+      },
+      {
+        "label": "Accion",
+        "value": "Filtrar, desinfectar, almacenar"
+      }
+    ],
+    "modelScore": "Puntaje de practicidad",
+    "principlesEyebrow": "Creado para decisiones en campo",
+    "principles": [
+      "Evidencia primero",
+      "Restricciones locales",
+      "Acceso bilingue"
+    ]
+  },
+  "how": {
+    "title": "Tres pasos del contexto a la accion",
+    "step1": "Complete una evaluacion guiada",
+    "step2": "Conecte respuestas con conocimiento de ingenieria",
+    "step3": "Reciba una recomendacion practica",
+    "body": "Cada paso mantiene la recomendacion conectada a datos verificables, restricciones locales y advertencias claras."
+  },
+  "advisor": {
+    "title": "Asesor de agua",
+    "subtitle": "Responda lo esencial o describa su situacion. HydroAccess AI selecciona soluciones estructuradas de ingenieria y explica el ajuste.",
+    "guided": "Guiado",
+    "chat": "Chat",
+    "recommend": "Generar recomendacion",
+    "result": "Recomendacion",
+    "why": "Por que encaja",
+    "cost": "Costo estimado",
+    "materials": "Materiales",
+    "instructions": "Instrucciones de construccion",
+    "maintenance": "Mantenimiento",
+    "advantages": "Ventajas",
+    "limitations": "Limitaciones",
+    "warnings": "Advertencias de seguridad",
+    "alternative": "Alternativa",
+    "validationError": "Revise los campos requeridos antes de generar la recomendacion.",
+    "chatWelcome": "Pregunte a HydroAccess AI sobre agua limpia, contaminacion, filtracion, almacenamiento, saneamiento, higiene o acceso practico al agua.",
+    "chatPlaceholder": "Haga una pregunta sobre agua o saneamiento...",
+    "chatSend": "Enviar",
+    "chatThinking": "HydroAccess AI esta pensando...",
+    "chatError": "No pude responder ahora. Intentelo de nuevo.",
+    "chatScope": "HydroAccess AI solo responde preguntas sobre agua, saneamiento, higiene, contaminacion, tratamiento, almacenamiento y acceso a agua segura.",
+    "chatExamples": [
+      "Como se contamina el agua?",
+      "Es seguro beber agua turbia?",
+      "Que es un filtro biosand?",
+      "Como se debe almacenar el agua de lluvia?"
+    ]
+  },
+  "about": {
+    "title": "Creado para criterio de ingenieria en contextos limitados",
+    "body": "HydroAccess AI fue inspirado por equipos que hacen el agua mas segura con presupuestos limitados, terreno dificil, infraestructura poco confiable y necesidades urgentes de salud. La plataforma combina conocimiento estructurado de ingenieria con explicacion multilingue de IA para convertir incertidumbre en un primer plan accionable."
+  },
+  "contact": {
+    "title": "Contactar a HydroAccess AI",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje"
+  },
+  "footer": {
+    "product": "HydroAccess AI™",
+    "creator": "Created and developed by Angel Hernandez.",
+    "rights": "© 2026 Angel Hernandez. All rights reserved.",
+    "disclaimer": "HydroAccess AI ofrece orientacion educativa y debe usarse junto con pruebas locales, guia de salud publica y criterio de ingenieria calificado."
+  },
+  "form": {
+    "country": "Pais",
+    "region": "Region",
+    "climate": "Clima",
+    "settlement": "Urbano o rural",
+    "source": "Fuente principal de agua",
+    "reliability": "Confiabilidad de la fuente",
+    "appearance": "Apariencia del agua",
+    "contamination": "Contaminacion sospechada",
+    "family": "Tamano de familia",
+    "budget": "Presupuesto mensual (USD)",
+    "electricity": "Electricidad disponible",
+    "internet": "Internet disponible",
+    "materials": "Materiales disponibles",
+    "tools": "Herramientas disponibles",
+    "concern": "Preocupacion principal",
+    "use": "Uso principal del agua",
+    "priority": "Prioridad",
+    "situation": "Describa su situacion"
+  },
+  "options": {
+    "arid": "Arido",
+    "tropical": "Tropical",
+    "temperate": "Templado",
+    "cold": "Frio",
+    "variable": "Variable",
+    "rural": "Rural",
+    "urban": "Urbano",
+    "rain": "Agua de lluvia",
+    "well": "Pozo",
+    "river": "Rio",
+    "lake": "Lago",
+    "piped": "Agua por tuberia",
+    "truck": "Entrega por camion",
+    "spring": "Manantial",
+    "daily": "Diaria",
+    "weekly": "Semanal",
+    "seasonal": "Estacional",
+    "unreliable": "No confiable",
+    "clear": "Clara",
+    "cloudy": "Turbia",
+    "colored": "Con color",
+    "smelly": "Con olor",
+    "cost": "Costo",
+    "safety": "Seguridad",
+    "speed": "Rapidez",
+    "maintenance": "Mantenimiento",
+    "capacity": "Capacidad",
+    "drinking": "Beber",
+    "cooking": "Cocinar",
+    "washing": "Lavado",
+    "irrigation": "Riego",
+    "lowest-cost": "Menor costo",
+    "highest-safety": "Mayor seguridad",
+    "fastest": "Mas rapido",
+    "lowest-maintenance": "Menor mantenimiento",
+    "sediment": "Sedimento",
+    "pathogens": "Patogenos",
+    "salinity": "Salinidad",
+    "chemicals": "Quimicos",
+    "turbidity": "Turbidez",
+    "unknown": "Desconocido"
+  },
+  "reasons": {
+    "source-match": "Coincide con la fuente de agua indicada.",
+    "climate-match": "Funciona en el clima indicado.",
+    "settlement-match": "Encaja con el entorno urbano/rural.",
+    "budget-fit": "Esta dentro del presupuesto mensual."
+  }
+}
